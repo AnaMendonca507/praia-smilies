@@ -64,9 +64,15 @@
   <body>
     <h1>Esta praia é limpa?</h1>
     <div id="buttons">
-      <div onclick="enviarVoto(2)" class="vote-btn">😃<span class="label">Muito limpa</span></div>
-      <div onclick="enviarVoto(1)" class="vote-btn">🙂<span class="label">Limpa</span></div>
-      <div onclick="enviarVoto(0)" class="vote-btn">😞<span class="label">Nada limpa</span></div>
+      <div onclick="enviarVoto(2)" class="vote-btn">
+        😃<span class="label">Muito limpa</span>
+      </div>
+      <div onclick="enviarVoto(1)" class="vote-btn">
+        🙂<span class="label">Limpa</span>
+      </div>
+      <div onclick="enviarVoto(0)" class="vote-btn">
+        😞<span class="label">Nada limpa</span>
+      </div>
     </div>
     <div id="status"></div>
 
